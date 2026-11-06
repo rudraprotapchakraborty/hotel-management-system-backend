@@ -31,7 +31,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server (optional startFing in v4.7)
-    await client.connect();
+    // await client.connect();
 
     const userCollection = client.db('hotelDb').collection('users');
     const mealCollection = client.db('hotelDb').collection('meal');
@@ -351,10 +351,10 @@ async function run() {
         total_amount: payment.price,
         currency: 'BDT',
         tran_id: trxid,
-        success_url: 'https://hotel-management-25cdc.web.app/',
-        fail_url: 'https://hotel-management-25cdc.web.app/',
-        cancel_url: 'https://hotel-management-25cdc.web.app/',
-        ipn_url: 'https://hotel-management-25cdc.web.app/',
+        success_url: 'https://hotel-management-25cdc.web.app/dashboard/paymentHistory',
+        fail_url: 'https://hotel-management-25cdc.web.app/dashboard/paymentHistory',
+        cancel_url: 'https://hotel-management-25cdc.web.app/dashboard/paymentHistory',
+        ipn_url: 'https://hotel-management-25cdc.web.app/dashboard/paymentHistory',
         shipping_method: 'Courier',
         product_name: 'Computer.',
         product_category: 'Electronic',
@@ -457,8 +457,8 @@ async function run() {
 
 
     // Send a ping to confirm a successful connection
-    await client.db('admin').command({ ping: 1 });
-    console.log('Pinged your deployment. You successfully connected to MongoDB!');
+    // await client.db('admin').command({ ping: 1 });
+    // console.log('Pinged your deployment. You successfully connected to MongoDB!');
   } finally {
     // Ensures that the client will close when you finish/error
     // await client.close();
