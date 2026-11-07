@@ -1,4 +1,23 @@
-# Hotel Dine · API
+<div align="center">
+
+# 🍽️ Hotel Management System
+
+**A hotel dining and membership system: browse the menu, order with card or SSLCommerz, review dishes and join a plan.**
+
+[**Live demo**](https://hotel-management-system-frontend-lac.vercel.app/) · [Frontend](https://github.com/rudraprotapchakraborty/hotel-management-system-frontend) · [API status](https://hotel-management-system-backend-two.vercel.app/) · [Portfolio](https://rudraprotapchakraborty.com/projects)
+
+![Node.js](https://img.shields.io/badge/Node.js-3c873a?style=for-the-badge&logo=nodedotjs&logoColor=ffffff) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=ffffff) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=ffffff) ![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=for-the-badge&logo=mongodb&logoColor=ffffff) ![Stripe](https://img.shields.io/badge/Stripe-635bff?style=for-the-badge&logo=stripe&logoColor=ffffff) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff)
+
+<a href="https://hotel-management-system-frontend-lac.vercel.app/"><img src="https://i.ibb.co/gMQ02TjJ/hotel-management-system.webp" alt="Hotel Management System: home page" width="880"></a>
+
+</div>
+
+> The REST API of **Hotel Dine**.
+>
+> - Menu with search and filters, upcoming dishes, reviews and likes
+> - Cart and checkout with Stripe cards or the SSLCommerz sandbox, verified on the server
+> - Four membership tiers that unlock features
+> - Member dashboard and an admin area for the menu, requests, members and payments
 
 REST API for the [Hotel Management System](https://hotel-management-system-frontend-lac.vercel.app/) ([frontend repository](https://github.com/rudraprotapchakraborty/hotel-management-system-frontend)). Deployed at [hotel-management-system-backend-two.vercel.app](https://hotel-management-system-backend-two.vercel.app/). Express 5, TypeScript, MongoDB (Mongoose) and Zod.
 
@@ -62,3 +81,11 @@ All routes live under `/api`. Responses look like `{ "success": true, "data": ..
 ## Deploying
 
 Vercel is supported out of the box: `api/index.ts` is the serverless entry and `vercel.json` rewrites every request to it (the MongoDB connection is cached between invocations). Set the environment variables above in the project settings, including `CLIENT_URL` and `BACKEND_URL`.
+
+---
+
+<div align="center">
+
+Made by **[Rudra Protap Chakraborty](https://rudraprotapchakraborty.com)** · [Portfolio](https://rudraprotapchakraborty.com) · [GitHub](https://github.com/rudraprotapchakraborty)
+
+</div>
