@@ -9,7 +9,10 @@ const required = (name: string): string => {
 
 const NODE_ENV = process.env.NODE_ENV || "development";
 
-const clientOrigins = (process.env.CLIENT_URL || "http://localhost:3000").split(",").map((o) => o.trim()).filter(Boolean);
+const DEFAULT_CLIENT_URL = "http://localhost:3000,https://hotel-management-system-frontend-lac.vercel.app";
+const LIVE_API_URL = "https://hotel-management-system-backend-two.vercel.app";
+
+const clientOrigins = (process.env.CLIENT_URL || DEFAULT_CLIENT_URL).split(",").map((o) => o.trim()).filter(Boolean);
 
 export const env = {
   NODE_ENV,
@@ -21,7 +24,7 @@ export const env = {
   JWT_ACCESS_SECRET: required("JWT_ACCESS_SECRET"),
   JWT_ACCESS_EXPIRES_IN: process.env.JWT_ACCESS_EXPIRES_IN || "7d",
   // Comma separated list of allowed browser origins (set this in the host's env for production)
-  CLIENT_URL: process.env.CLIENT_URL || "http://localhost:3000",
+  CLIENT_URL: process.env.CLIENT_URL || DEFAULT_CLIENT_URL,
 
   // Where people are sent after paying: the first listed origin that is not localhost, else the first one
   FRONTEND_URL: clientOrigins.find((o) => !/localhost|127\.0\.0\.1/.test(o)) ?? clientOrigins[0],
@@ -47,5 +50,5 @@ export const env = {
   SSL_SANDBOX: process.env.SSL_SANDBOX !== "false",
   SSL_USD_TO_BDT: Number(process.env.SSL_USD_TO_BDT) || 120,
   // Public address of this API (SSLCommerz sends the browser back here)
-  BACKEND_URL: (process.env.BACKEND_URL || "http://localhost:5000").replace(/\/+$/, ""),
+  BACKEND_URL: (process.env.BACKEND_URL || (NODE_ENV === "production" ? LIVE_API_URL : "http://localhost:5000")).replace(/\/+$/, ""),
 };

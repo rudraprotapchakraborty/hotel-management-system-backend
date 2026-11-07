@@ -1,6 +1,6 @@
 # Hotel Dine · API
 
-REST API for the Hotel Management System ([frontend repository](https://github.com/rudraprotapchakraborty/hotel-management-system-frontend)). Express 5, TypeScript, MongoDB (Mongoose) and Zod.
+REST API for the [Hotel Management System](https://hotel-management-system-frontend-lac.vercel.app/) ([frontend repository](https://github.com/rudraprotapchakraborty/hotel-management-system-frontend)). Deployed at [hotel-management-system-backend-two.vercel.app](https://hotel-management-system-backend-two.vercel.app/). Express 5, TypeScript, MongoDB (Mongoose) and Zod.
 
 ## Features
 
@@ -35,8 +35,8 @@ The sample menu lives in `scripts/meals.seed.json`: 25 dishes (21 on the menu an
 | --- | --- |
 | `MONGODB_URI`, `MONGODB_DB` | Database connection. The app uses its own database (default `hotel_dine`). |
 | `JWT_ACCESS_SECRET` | Secret for signing tokens and hashing codes. |
-| `CLIENT_URL` | Comma separated list of allowed browser origins. The first one is also where payment redirects send the buyer. |
-| `BACKEND_URL` | Public address of this API, used for SSLCommerz callbacks. |
+| `CLIENT_URL` | Comma separated list of allowed browser origins. Defaults to localhost and the live frontend. Payment redirects send the buyer to the first one that is not localhost. |
+| `BACKEND_URL` | Public address of this API, used for SSLCommerz callbacks. Defaults to the live API in production and to `http://localhost:5000` otherwise. |
 | `GOOGLE_CLIENT_ID` | Google OAuth client id used to verify ID tokens. |
 | `STRIPE_SECRET_KEY` | Stripe secret key. Card payments are switched off when it is empty. |
 | `SSL_STORE_ID`, `SSL_STORE_PASSWD`, `SSL_USD_TO_BDT` | SSLCommerz sandbox store and the USD to BDT rate used to charge. |
