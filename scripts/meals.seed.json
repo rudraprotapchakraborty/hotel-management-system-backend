@@ -1,0 +1,485 @@
+[
+  {
+    "name": "Minestrone Soup",
+    "type": "soup",
+    "mealTime": "dinner",
+    "price": 6.99,
+    "chef": "Mediterranean Kitchen",
+    "description": "A rich and hearty Italian vegetable soup packed with beans, pasta and fresh vegetables, simmered in a flavourful broth.",
+    "ingredients": [
+      "Carrots",
+      "Celery",
+      "Beans",
+      "Tomatoes",
+      "Pasta",
+      "Garlic"
+    ],
+    "likes": 24,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Minestrone_soup_%285%29.jpg/960px-Minestrone_soup_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Minestrone"
+  },
+  {
+    "name": "Caesar Salad",
+    "type": "salad",
+    "mealTime": "lunch",
+    "price": 8.5,
+    "chef": "Garden Table",
+    "description": "Crisp romaine, shaved parmesan and garlic croutons tossed in a classic creamy dressing.",
+    "ingredients": [
+      "Romaine lettuce",
+      "Parmesan",
+      "Croutons",
+      "Garlic",
+      "Lemon",
+      "Anchovy"
+    ],
+    "likes": 31,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Caesar_salad_%282%29.jpg/960px-Caesar_salad_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Caesar_salad"
+  },
+  {
+    "name": "Margherita Pizza",
+    "type": "pizza",
+    "mealTime": "dinner",
+    "price": 11.99,
+    "chef": "Napoli Oven",
+    "description": "Wood-fired pizza with San Marzano tomatoes, fresh mozzarella and basil on a thin, blistered crust.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomatoes",
+      "Mozzarella",
+      "Basil",
+      "Olive oil"
+    ],
+    "likes": 58,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/960px-Pizza-3007395.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Pizza"
+  },
+  {
+    "name": "Chocolate Lava Cake",
+    "type": "dessert",
+    "mealTime": "dinner",
+    "price": 7.5,
+    "chef": "Sweet Atelier",
+    "description": "A warm chocolate cake with a molten centre, served with a spoon of vanilla cream.",
+    "ingredients": [
+      "Dark chocolate",
+      "Butter",
+      "Eggs",
+      "Sugar",
+      "Flour"
+    ],
+    "likes": 47,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Cakeinwhitesatin-1.jpg/960px-Cakeinwhitesatin-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Fondant_icing"
+  },
+  {
+    "name": "Fluffy Pancake Stack",
+    "type": "breakfast",
+    "mealTime": "breakfast",
+    "price": 8.99,
+    "chef": "Morning Kitchen",
+    "description": "Three golden pancakes with maple syrup, fresh berries and a knob of butter.",
+    "ingredients": [
+      "Flour",
+      "Milk",
+      "Eggs",
+      "Maple syrup",
+      "Berries",
+      "Butter"
+    ],
+    "likes": 39,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg/960px-Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Pancake"
+  },
+  {
+    "name": "Classic French Omelette",
+    "type": "breakfast",
+    "mealTime": "breakfast",
+    "price": 7.25,
+    "chef": "Morning Kitchen",
+    "description": "Soft, silky eggs folded around herbs and gruyère, served with toasted sourdough.",
+    "ingredients": [
+      "Eggs",
+      "Butter",
+      "Gruyère",
+      "Chives",
+      "Sourdough"
+    ],
+    "likes": 22,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/FoodOmelete.jpg/960px-FoodOmelete.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Omelette"
+  },
+  {
+    "name": "Belgian Waffles",
+    "type": "breakfast",
+    "mealTime": "breakfast",
+    "price": 8.75,
+    "chef": "Morning Kitchen",
+    "description": "Crisp-edged waffles with whipped cream, strawberries and honey.",
+    "ingredients": [
+      "Flour",
+      "Eggs",
+      "Milk",
+      "Strawberries",
+      "Honey",
+      "Cream"
+    ],
+    "likes": 27,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/960px-Waffles_with_Strawberries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Waffle"
+  },
+  {
+    "name": "Greek Salad",
+    "type": "salad",
+    "mealTime": "lunch",
+    "price": 7.95,
+    "chef": "Garden Table",
+    "description": "Tomatoes, cucumber, olives and feta with oregano and olive oil, just as it is eaten on the islands.",
+    "ingredients": [
+      "Tomatoes",
+      "Cucumber",
+      "Feta",
+      "Olives",
+      "Red onion",
+      "Oregano"
+    ],
+    "likes": 18,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Greece_Food_Horiatiki.JPG/960px-Greece_Food_Horiatiki.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Greek_salad"
+  },
+  {
+    "name": "Roasted Tomato Soup",
+    "type": "soup",
+    "mealTime": "lunch",
+    "price": 5.99,
+    "chef": "Mediterranean Kitchen",
+    "description": "Slow-roasted tomatoes blended with basil and a swirl of cream, served with a grilled cheese crouton.",
+    "ingredients": [
+      "Tomatoes",
+      "Basil",
+      "Cream",
+      "Garlic",
+      "Cheddar"
+    ],
+    "likes": 20,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Tomato_soup%2C_plant-based_%2844040252791%29.jpg/960px-Tomato_soup%2C_plant-based_%2844040252791%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Tomato_soup"
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "type": "pasta",
+    "mealTime": "dinner",
+    "price": 12.5,
+    "chef": "Napoli Oven",
+    "description": "Spaghetti tossed with egg, pecorino, black pepper and crisp guanciale. No cream, as it should be.",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pecorino",
+      "Guanciale",
+      "Black pepper"
+    ],
+    "likes": 44,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/960px-Espaguetis_carbonara.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Carbonara"
+  },
+  {
+    "name": "Homemade Lasagne",
+    "type": "pasta",
+    "mealTime": "dinner",
+    "price": 13.25,
+    "chef": "Napoli Oven",
+    "description": "Layers of pasta, slow-cooked ragù and béchamel baked until golden and bubbling.",
+    "ingredients": [
+      "Pasta sheets",
+      "Beef ragù",
+      "Béchamel",
+      "Parmesan",
+      "Tomatoes"
+    ],
+    "likes": 36,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/960px-Lasagne_-_stonesoup.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Lasagna"
+  },
+  {
+    "name": "Grilled Ribeye Steak",
+    "type": "main",
+    "mealTime": "dinner",
+    "price": 24.5,
+    "chef": "Grill House",
+    "description": "A thick-cut ribeye grilled to your liking with garlic butter, roasted potatoes and greens.",
+    "ingredients": [
+      "Ribeye",
+      "Garlic butter",
+      "Potatoes",
+      "Green beans",
+      "Thyme"
+    ],
+    "likes": 52,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Steak_with_shitaki_mushrooms.jpg/960px-Steak_with_shitaki_mushrooms.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Steak"
+  },
+  {
+    "name": "Gourmet Cheeseburger",
+    "type": "burger",
+    "mealTime": "lunch",
+    "price": 11.5,
+    "chef": "Grill House",
+    "description": "A juicy beef patty with aged cheddar, pickles and house sauce in a toasted brioche bun.",
+    "ingredients": [
+      "Beef patty",
+      "Cheddar",
+      "Brioche bun",
+      "Pickles",
+      "Lettuce",
+      "Tomato"
+    ],
+    "likes": 61,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/960px-RedDot_Burger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Hamburger"
+  },
+  {
+    "name": "Club Sandwich",
+    "type": "sandwich",
+    "mealTime": "lunch",
+    "price": 9.75,
+    "chef": "Garden Table",
+    "description": "Triple-decker toast with roast chicken, bacon, lettuce and tomato, served with crisp fries.",
+    "ingredients": [
+      "Toast",
+      "Chicken",
+      "Bacon",
+      "Lettuce",
+      "Tomato",
+      "Mayonnaise"
+    ],
+    "likes": 25,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Club_sandwich_at_Caf%C3%A9_Picnic.jpg/960px-Club_sandwich_at_Caf%C3%A9_Picnic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Club_sandwich"
+  },
+  {
+    "name": "Fish and Chips",
+    "type": "main",
+    "mealTime": "dinner",
+    "price": 13.99,
+    "chef": "Harbour Kitchen",
+    "description": "Beer-battered white fish with thick-cut chips, mushy peas and tartare sauce.",
+    "ingredients": [
+      "White fish",
+      "Potatoes",
+      "Beer batter",
+      "Peas",
+      "Lemon"
+    ],
+    "likes": 33,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/960px-Fish_and_chips_blackpool.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Fish_and_chips"
+  },
+  {
+    "name": "Vegetable Biryani",
+    "type": "main",
+    "mealTime": "dinner",
+    "price": 12.25,
+    "chef": "Spice Route",
+    "description": "Fragrant basmati rice layered with spiced vegetables, saffron and fried onions.",
+    "ingredients": [
+      "Basmati rice",
+      "Mixed vegetables",
+      "Saffron",
+      "Yoghurt",
+      "Fried onions",
+      "Spices"
+    ],
+    "likes": 40,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/960px-%22Hyderabadi_Dum_Biryani%22.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Biryani"
+  },
+  {
+    "name": "Pad Thai",
+    "type": "main",
+    "mealTime": "lunch",
+    "price": 11.25,
+    "chef": "Spice Route",
+    "description": "Stir-fried rice noodles with tamarind, peanuts, bean sprouts and lime.",
+    "ingredients": [
+      "Rice noodles",
+      "Tamarind",
+      "Peanuts",
+      "Bean sprouts",
+      "Lime",
+      "Egg"
+    ],
+    "likes": 29,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/960px-Phat_Thai_kung_Chang_Khien_street_stall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Pad_thai"
+  },
+  {
+    "name": "Tiramisu",
+    "type": "dessert",
+    "mealTime": "dinner",
+    "price": 7.95,
+    "chef": "Sweet Atelier",
+    "description": "Espresso-soaked sponge layered with mascarpone cream and cocoa.",
+    "ingredients": [
+      "Ladyfingers",
+      "Mascarpone",
+      "Espresso",
+      "Eggs",
+      "Cocoa"
+    ],
+    "likes": 49,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/960px-Tiramisu_-_Raffaele_Diomede.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Tiramisu"
+  },
+  {
+    "name": "New York Cheesecake",
+    "type": "dessert",
+    "mealTime": "dinner",
+    "price": 7.25,
+    "chef": "Sweet Atelier",
+    "description": "Dense, creamy cheesecake on a buttery biscuit base with berry compote.",
+    "ingredients": [
+      "Cream cheese",
+      "Biscuits",
+      "Butter",
+      "Eggs",
+      "Berries"
+    ],
+    "likes": 35,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg/960px-Baked_cheesecake_with_raspberries_and_blueberries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Cheesecake"
+  },
+  {
+    "name": "Crème Brûlée",
+    "type": "dessert",
+    "mealTime": "dinner",
+    "price": 7.5,
+    "chef": "Sweet Atelier",
+    "description": "Vanilla custard under a thin, crackling caramelised sugar crust.",
+    "ingredients": [
+      "Cream",
+      "Egg yolks",
+      "Vanilla",
+      "Sugar"
+    ],
+    "likes": 28,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg/960px-2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e"
+  },
+  {
+    "name": "Apple Pie",
+    "type": "dessert",
+    "mealTime": "lunch",
+    "price": 6.5,
+    "chef": "Sweet Atelier",
+    "description": "Cinnamon apples in a flaky pastry crust, best with a scoop of ice cream.",
+    "ingredients": [
+      "Apples",
+      "Pastry",
+      "Cinnamon",
+      "Butter",
+      "Sugar"
+    ],
+    "likes": 19,
+    "upcoming": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_pie_14.jpg/960px-Apple_pie_14.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Apple_pie"
+  },
+  {
+    "name": "Avocado Toast",
+    "type": "breakfast",
+    "mealTime": "breakfast",
+    "price": 8.25,
+    "chef": "Morning Kitchen",
+    "description": "Smashed avocado on toasted sourdough with chilli flakes, lemon and a poached egg.",
+    "ingredients": [
+      "Sourdough",
+      "Avocado",
+      "Egg",
+      "Lemon",
+      "Chilli flakes"
+    ],
+    "likes": 0,
+    "upcoming": true,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg/960px-Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Avocado_toast"
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "type": "soup",
+    "mealTime": "lunch",
+    "price": 6.25,
+    "chef": "Mediterranean Kitchen",
+    "description": "Comforting chicken broth with tender noodles, carrots and fresh parsley.",
+    "ingredients": [
+      "Chicken",
+      "Egg noodles",
+      "Carrots",
+      "Celery",
+      "Parsley"
+    ],
+    "likes": 0,
+    "upcoming": true,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chicken_Noodle_Soup.jpg/960px-Chicken_Noodle_Soup.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Chicken_soup"
+  },
+  {
+    "name": "Truffle Mushroom Risotto",
+    "type": "main",
+    "mealTime": "dinner",
+    "price": 15.5,
+    "chef": "Napoli Oven",
+    "description": "Creamy arborio rice with wild mushrooms, parmesan and a drizzle of truffle oil.",
+    "ingredients": [
+      "Arborio rice",
+      "Mushrooms",
+      "Parmesan",
+      "White wine",
+      "Truffle oil"
+    ],
+    "likes": 0,
+    "upcoming": true,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Risotto_with_speck_and_goat_cheese_%286101067436%29.jpg/960px-Risotto_with_speck_and_goat_cheese_%286101067436%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Risotto"
+  },
+  {
+    "name": "Vanilla Bean Ice Cream",
+    "type": "dessert",
+    "mealTime": "dinner",
+    "price": 5.5,
+    "chef": "Sweet Atelier",
+    "description": "Slow-churned vanilla ice cream, served with warm caramel sauce.",
+    "ingredients": [
+      "Cream",
+      "Vanilla bean",
+      "Sugar",
+      "Egg yolks",
+      "Caramel"
+    ],
+    "likes": 0,
+    "upcoming": true,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg/960px-Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "source": "https://en.wikipedia.org/wiki/Ice_cream"
+  }
+]

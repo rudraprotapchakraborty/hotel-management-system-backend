@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Bronze Plan",
+    "badge": "bronze",
+    "price": 0,
+    "description": "Basic Free Access",
+    "features": [
+      "Access to Free Content",
+      "Basic Support",
+      "No Customization",
+      "Limited Offers"
+    ]
+  },
+  {
+    "name": "Silver Plan",
+    "badge": "silver",
+    "price": 19.99,
+    "description": "Basic Access",
+    "features": [
+      "Access to Basic Content",
+      "Priority Support",
+      "Customizable Settings",
+      "Discounted Offers"
+    ]
+  },
+  {
+    "name": "Gold Plan",
+    "badge": "gold",
+    "price": 39.99,
+    "description": "Premium Access",
+    "features": [
+      "Access to Premium Content",
+      "Priority Support",
+      "Advanced Customization",
+      "Exclusive Offers"
+    ]
+  },
+  {
+    "name": "Platinum Plan",
+    "badge": "platinum",
+    "price": 59.99,
+    "description": "All Features Access",
+    "features": [
+      "Full Access to All Content",
+      "Premium Support",
+      "Advanced Customization",
+      "Early Access to New Features"
+    ]
+  }
+]
